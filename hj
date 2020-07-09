@@ -20,15 +20,6 @@
 
 <!--[if lte IE 9]>
 <script>
-    (function() {
-      var e = "abbr,article,aside,audio,canvas,datalist,details,dialog,eventsource,figure,footer,header,hgroup,mark,menu,meter,nav,output,progress,section,time,video".split(","),
-        i = e.length;
-      while (i--) {
-        document.createElement(e[i]);
-      }
-
-      window.console = window.console || {};
-      var f = ['log', 'info', 'warning', 'error', 'clear'];
       var l = f.length;
       while(l--) {
         window.console[f[l]] = function () {};
@@ -36,119 +27,7 @@
     })();
   </script>
 <![endif]-->
-<link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/pkg/wiki-lemma_4ae8532.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-common/pkg/wiki-common-base_09f2cde.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-common/widget/component/userbar-n/userbar-n_2890903.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-common/widget/lib/larkplayer/larkplayer_9f95c7c.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-common/widget/lib/webuploader/webuploader_08d9db4.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/pkg/wiki-lemma-module_7d3292c.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/widget/tools/announcement/announcement_cba33f4.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/widget/tools/label/label_1b0bc0e.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/widget/tools/newSideShare/sideShare_9c411cd.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/widget/tools/video/pageMask/pageMask_ff9a193.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/configModule/focusAndRelation/focusAndRelation_30b93d9.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/mainContent/mainContent_de18096.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/mainContent/lemmaRelation/lemmaRelation_496a30a.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/configModule/zhixin/zhixin_3b0d7a5.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/widget/tools/searchHeader/toolButtons-n/toolButtons-n_8b4919b.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/widget/tools/searchHeader/toolButtons-n/userInfo-n_7e90184.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/widget/tools/searchHeader/searchHeader-n_f9a6e5b.css"/>    
-</head>
-
-<script>
-        var _hmt = _hmt || [];
-        (function() {
-            var hm = document.createElement("script");
-            hm.src = "https://hm.baidu.com/hm.js?55b574651fcae74b0a9f1cf9c8d7c93a";
-            var s = document.getElementsByTagName("script")[0];
-            s.parentNode.insertBefore(hm, s);
-        })();
-    </script>
-
-<body class="wiki-lemma  normal">
-
-
-<div class="header-wrapper pc-header-new">
-<div class="topbar cmn-clearfix">
-<ul class="wgt-userbar wgt-userbar-n" id="j-wgt-userbar">
-<li>
-<a href="http://www.baidu.com/">百度首页</a>
-</li>
-</ul>
-<div class="separator"></div>
-<div class="wiki-common-headTabBar">
-<a href="https://www.baidu.com/" nslog="normal" nslog-type="10600112" data-href="https://www.baidu.com/s?ie=utf-8&fr=bks0000&wd=">网页</a>
-<a href="http://news.baidu.com/" nslog="normal" nslog-type="10600112" data-href="http://news.baidu.com/ns?tn=news&cl=2&rn=20&ct=1&fr=bks0000&ie=utf-8&word=">新闻</a>
-<a href="https://tieba.baidu.com/" nslog="normal" nslog-type="10600112" data-href="https://tieba.baidu.com/f?ie=utf-8&fr=bks0000&kw=">贴吧</a>
-<a href="https://zhidao.baidu.com/" nslog="normal" nslog-type="10600112" data-href="https://zhidao.baidu.com/search?pn=0&&rn=10&lm=0&fr=bks0000&word=">知道</a>
-<a href="http://music.baidu.com/" nslog="normal" nslog-type="10600112" data-href="http://music.baidu.com/search?f=ms&ct=134217728&ie=utf-8&rn=&lm=-1&pn=30&fr=bks0000&key=">音乐</a>
-<a href="http://image.baidu.com/" nslog="normal" nslog-type="10600112" data-href="http://image.baidu.com/search/index?tn=baiduimage&ct=201326592&lm=-1&cl=2&nc=1&ie=utf-8&word=">图片</a>
-<a href="http://v.baidu.com/" nslog="normal" nslog-type="10600112" data-href="https://www.baidu.com/sf/vsearch?pd=video&tn=vsearch&ie=utf-8&rsv_spt=17&wd=">视频</a>
-<a href="http://map.baidu.com/" nslog="normal" nslog-type="10600112" data-href="http://map.baidu.com/m?ie=utf-8&fr=bks0000&word=">地图</a>
-<a href="https://wenku.baidu.com/" nslog="normal" nslog-type="10600112" data-href="https://wenku.baidu.com/search?lm=0&od=0&ie=utf-8&fr=bks0000&word=">文库</a>
-<b class="baike">百科</b>
-</div>
-</div>
-<div class="header">
-<div class="layout">
-<div class="wgt-searchbar wgt-searchbar-new wgt-searchbar-main cmn-clearfix wgt-searchbar-large">
-<div class="logo-container">
-<a class="logo cmn-inline-block" title="到百科首页" href="/">
-<span class="cmn-baike-logo">
-<em class="cmn-icon cmn-icons cmn-icons_logo-bai"></em>
-<em class="cmn-icon cmn-icons cmn-icons_logo-du"></em>
-<em class="cmn-icon cmn-icons cmn-icons_logo-baike"></em>
-</span>
-</a>
-</div>
-<div class="search">
-<div class="form">
-<form id="searchForm" action="/search/word" method="GET" target="_self">
-<input id="query" nslog="normal" nslog-type="10080011" name="word" type="text" autocomplete="off" autocorrect="off" value="马化腾" /><button id="search" nslog="normal" nslog-type="10080008" type="button">进入词条</button><button id="searchLemma" nslog="normal" nslog-type="10080009" type="button">全站搜索</button><a class="help" href="/help" nslog="normal" nslog-type="10080010" target="_blank">帮助</a>
-</form>
-<form id="searchLemmaForm" action="/search" method="GET" target="_self">
-<input id="searchLemmaQuery" name="word" type="hidden" />
-<input name="pn" type="hidden" value="0" />
-<input name="rn" type="hidden" value="0" />
-<input name="enc" type="hidden" value="utf8" />
-</form>
-<ul id="suggestion" class="suggestion">
-<div class="sug"></div>
-<li class="extra">
-<span id="clear" style="margin-right:8px;">清除历史记录</span><span id="close" nslog="normal" nslog-type="10080012">关闭</span>
-</li>
-</ul>
-</div></div>
-</div>
-<div class="declare-wrap" id="J-declare-wrap">
-<div class="declare" id="J-declare">声明：百科词条人人可编辑，词条创建和修改均免费，绝不存在官方及代理商付费代编，请勿上当受骗。<a class="declare-details" target="_blank" href="/common/declaration">详情>></a>
-<div class="close-btn" id="J-declare-close">
-<em class="cmn-icon cmn-icons cmn-icons_close"></em>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="navbar-wrapper">
-<div class="wgt-navbar">
-<div class="navbar-bg">
-<div class="navbar-bg-top">
-<div class="navbar-content layout">
-<div class="navbar-content-box">
-<dl class="index ">
-<dt><a href="/">首页</a></dt>
-<dd>
-<div><a href="/calendar/" target="_blank">历史上的今天</a></div>
-<div><a href="/vbaike/" target="_blank">百科冷知识</a></div>
-<div><a href="/vbaike#gallary" target="_blank">图解百科</a></div>
-</dd>
-</dl>
-<dl class="cat ">
-<dt><a>分类</a></dt>
-<dd>
-<div><a href="/art" target="_blank">艺术</a></div>
-<div><a href="/science" target="_blank">科学</a></div>
-<div><a href="/ziran" target="_blank">自然</a></div>
-<div><a href="/wenhua" target="_blank">文化</a></div>
-<div><a href="/dili" target="_blank">地理</a></div>
-<div><a href="/shenghuo" target="_blank">生活</a></div>
-<div><a href="/shehui" target="_blank">社会</a></div>
-<div><a href="/renwu" target="_blank">人物</a></div>
-<div><a href="/jingji" target="_blank">经济</a></div>
-<div><a href="/tiyu" target="_blank">体育</a></div>
-<div><a href="/lishi" target="_blank">历史</a></div>
-</dd>
-</dl>
-<dl class="second-know ">
-<dt><a>秒懂百科</a></dt>
-<dd>
-<div><a href="https://child.baidu.com/" target="_blank">懂啦</a></div>
-<div><a href="/item/秒懂本尊答" target="_blank">秒懂本尊答</a></div>
+<link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/pkg/wiki-lemma_4ae8532.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-common/pkg/wiki-common-base_09f2cde.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-common/widget/component/userbar-n/userbar-n_2890903.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-common/widget/lib/larkplayer/larkplayer_9f95c7c.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-common/widget/lib/webuploader/webuploader_08d9db4.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/pkg/wiki-lemma-module_7d3292c.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/w
 <div><a href="/item/秒懂大师说" target="_blank">秒懂大师说</a></div>
 <div><a href="/item/秒懂看瓦特" target="_blank">秒懂看瓦特</a></div>
 <div><a href="/item/秒懂五千年" target="_blank">秒懂五千年</a></div>
@@ -163,7 +42,7 @@
 <div><a href="/city/" target="_blank">城市百科</a></div>
 <div><a href="/wikicategory/view?categoryName=恐龙大全" target="_blank">恐龙百科</a></div>
 <div><a href="/wikicategory/view?categoryName=多肉植物" target="_blank">多肉百科</a></div>
-</dd>
+</dd
 </dl>
 <dl class="user ">
 <dt><a>用户</a></dt>
